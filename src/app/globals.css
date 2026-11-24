@@ -6,6 +6,9 @@
   --ivory: #faf8f5;
   --ink: #121212;
   --teal: #005f60;
+  --font-serif: "Iowan Old Style", "Baskerville", "Times New Roman", serif;
+  --font-sans: "Avenir Next", Avenir, "Segoe UI", Arial, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 }
 
 html {
