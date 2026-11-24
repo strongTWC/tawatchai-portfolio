@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Linkedin, Mail } from "lucide-react";
 import { Reveal } from "@/components/layout/reveal";
 import { ArrowButton } from "@/components/ui/arrow-button";
-import { PlaceholderChip } from "@/components/ui/tag";
 import { profile } from "@/data/profile";
 
 export const metadata: Metadata = {
@@ -36,21 +35,16 @@ export default function ContactPage() {
               data-testid="contact-email-card"
               className="flex h-full flex-col justify-between border border-hairline bg-white p-8 lg:p-10"
             >
-              <div className="flex items-start justify-between">
-                <Mail className="h-6 w-6 text-teal" strokeWidth={1.5} aria-hidden />
-                <PlaceholderChip />
-              </div>
+              <Mail className="h-6 w-6 text-teal" strokeWidth={1.5} aria-hidden />
               <div className="mt-12">
                 <p className="font-mono text-[10px] uppercase tracking-widest text-stone-light">Email</p>
-                <p
+                <a
                   data-testid="contact-email-value"
-                  className="mt-3 break-all font-mono text-sm text-ink"
+                  href={`mailto:${profile.email}`}
+                  className="mt-3 inline-block break-all font-mono text-sm text-ink transition-colors hover:text-teal"
                 >
                   {profile.email}
-                </p>
-                <p className="mt-3 text-sm leading-relaxed text-stone">
-                  Placeholder address — the final email will be added before launch.
-                </p>
+                </a>
               </div>
             </div>
           </Reveal>
@@ -60,23 +54,20 @@ export default function ContactPage() {
               data-testid="contact-linkedin-card"
               className="flex h-full flex-col justify-between border border-hairline bg-white p-8 lg:p-10"
             >
-              <div className="flex items-start justify-between">
-                <Linkedin className="h-6 w-6 text-teal" strokeWidth={1.5} aria-hidden />
-                <PlaceholderChip />
-              </div>
+              <Linkedin className="h-6 w-6 text-teal" strokeWidth={1.5} aria-hidden />
               <div className="mt-12">
                 <p className="font-mono text-[10px] uppercase tracking-widest text-stone-light">
                   LinkedIn
                 </p>
-                <p
+                <a
                   data-testid="contact-linkedin-value"
-                  className="mt-3 break-all font-mono text-sm text-ink"
+                  href={profile.linkedin}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-3 inline-block break-all font-mono text-sm text-ink transition-colors hover:text-teal"
                 >
                   {profile.linkedin}
-                </p>
-                <p className="mt-3 text-sm leading-relaxed text-stone">
-                  Placeholder profile — the final LinkedIn URL will be added before launch.
-                </p>
+                </a>
               </div>
             </div>
           </Reveal>
