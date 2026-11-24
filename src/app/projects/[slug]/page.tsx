@@ -67,7 +67,7 @@ export default async function ProjectDetailPage({ params }: Props) {
                 data-testid="project-completed-at"
                 className="font-mono text-[10px] uppercase tracking-widest text-stone-light"
               >
-                {project.completedAt ? `Completed ${formatDate(project.completedAt)}` : "Ongoing"}
+                {project.completedAt ? `Completed ${formatDate(project.completedAt)}` : "Date not specified"}
               </span>
             </div>
 
