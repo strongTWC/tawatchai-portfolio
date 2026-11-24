@@ -39,9 +39,13 @@ export function Footer() {
           <p className="font-mono text-[10px] uppercase tracking-widest text-stone-light" data-testid="footer-copyright">
             © {new Date().getFullYear()} {profile.name} · Portfolio
           </p>
-          <p className="font-mono text-[10px] uppercase tracking-widest text-stone-light" data-testid="footer-placeholder-note">
-            Contact details shown are placeholders pending final approval
-          </p>
+          <a
+            href={`mailto:${profile.email}`}
+            data-testid="footer-email"
+            className="font-mono text-[10px] uppercase tracking-widest text-stone-light transition-colors hover:text-ivory"
+          >
+            {profile.email}
+          </a>
         </div>
       </div>
     </footer>
