@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { Reveal } from "@/components/layout/reveal";
 import { ArrowButton } from "@/components/ui/arrow-button";
-import { PlaceholderChip } from "@/components/ui/tag";
 import { profile } from "@/data/profile";
 
 export const metadata: Metadata = {
@@ -15,17 +14,17 @@ const JOURNEY = [
   {
     index: "01",
     title: "The floor",
-    body: "Fifteen-plus years in high-end retail: luxury sales, clienteling and service in prestige beauty environments — a decade of it with CHANEL.",
+    body: "Experience in high-end beauty and luxury retail, including luxury sales, clienteling and service. CHANEL employment concluded on 31 August 2026.",
   },
   {
     index: "02",
     title: "The craft",
-    body: "Alongside selling, the work became about people: developing product knowledge, supporting OJT and onboarding, and coaching advisors until good service became second nature.",
+    body: "Alongside frontline sales, the work included product knowledge sharing, visual merchandising, OJT, onboarding and coaching support for team members.",
   },
   {
     index: "03",
     title: "The direction",
-    body: "That floor experience is now the foundation for Learning & Development — designing training that respects both the standards of a maison and the realities of a busy boutique.",
+    body: "The next career focus is Retail Training and Learning & Development, bringing practical boutique experience into product learning and team capability development.",
   },
 ];
 
@@ -51,13 +50,6 @@ export default function AboutPage() {
             </h1>
             <p className="mt-8 max-w-2xl text-lg leading-relaxed text-stone">
               {profile.professionalSummary}
-            </p>
-            <p
-              data-testid="about-accuracy-note"
-              className="mt-8 max-w-2xl border border-dashed border-stone/40 bg-ivory-soft px-4 py-3 font-mono text-[10px] uppercase leading-relaxed tracking-widest text-stone"
-            >
-              Content accuracy — details marked [in brackets] are placeholders. No employers,
-              dates, figures or contact details are invented.
             </p>
           </Reveal>
         </div>
@@ -122,7 +114,6 @@ export default function AboutPage() {
                   <div>
                     <p className="flex flex-wrap items-center gap-3 font-serif text-xl tracking-tight sm:text-2xl">
                       {entry.company}
-                      {entry.placeholder && <PlaceholderChip />}
                     </p>
                     <p className="mt-2 text-sm text-stone">{entry.role}</p>
                     {entry.note && (
@@ -196,7 +187,6 @@ export default function AboutPage() {
                   <div>
                     <p className="flex flex-wrap items-center gap-3 text-base sm:text-lg">
                       {entry.title}
-                      {entry.placeholder && <PlaceholderChip />}
                     </p>
                     {entry.issuer && <p className="mt-2 text-sm text-stone">{entry.issuer}</p>}
                     {entry.note && (
