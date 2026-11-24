@@ -11,7 +11,7 @@ export const profile: Profile = {
   employmentHistory: [
     {
       company: "CHANEL",
-      role: "Beauty Advisor · Makeup Specialist · Senior Specialist · Assistant Trainer",
+      role: "Beauty Advisor · Makeup Specialist · Senior Specialist · Assistant Trainer assignment",
       period: "Employment concluded 31 August 2026",
       note: "Luxury beauty retail, clienteling, product knowledge sharing, OJT, onboarding and coaching support.",
     },
@@ -29,7 +29,7 @@ export const profile: Profile = {
   ],
   education: [
     {
-      title: "Bachelor's Degree — English for Business Communication",
+      title: "Faculty of Arts — English for Business Communication",
       issuer: "Krirk University",
       period: "Graduated 2013",
     },
