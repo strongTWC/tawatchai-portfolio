@@ -49,40 +49,52 @@ export const projects: Project[] = [
   },
   {
     id: "p02",
-    title: "Skincare Sales Development Initiative",
+    title: "Retail Performance Improvement — Skincare Sales Development",
     slug: "skincare-sales-development-initiative",
     category: "Sales Performance & Business Development",
     summary:
-      "A floor-level initiative that reframed skincare selling from single-product transactions to complete routines — through discovery, diagnosis and regimen building.",
-    role: "Initiative lead within the boutique team",
+      "A one-month, one-store initiative for a 40-person team. I initiated and drove a practical product-linking approach, using short learning videos to help employees build confidence in recommending the N1 skincare range.",
+    role: "Project Initiator & Owner",
     outcomes:
-      "A shared discovery structure for skincare conversations; growing comfort with routine-based selling.",
+      "Employees tried the lotion-to-foundation recommendation, reported successful sales, and began adapting the linking approach to serum and cream. Qualitative observations only; commercial figures remain confidential.",
     coverImage: "/images/cover_skincare_sales.jpg",
-    completedAt: "2022-11-01",
+    completedAt: null,
     featured: true,
-    skills: ["Skincare Expertise", "Customer Discovery", "Sales Coaching", "Service Excellence"],
+    skills: [
+      "Project Initiation",
+      "Product Knowledge Sharing",
+      "Learning Media Production",
+      "Stakeholder Coordination",
+      "Team Engagement",
+      "Retail Sales",
+    ],
     publicationStatus: "Published",
     projectType: "Historical Experience",
     caseStudy: {
       overview:
-        "A practical, floor-level effort to shift skincare conversations from quick transactions to guided regimen building.",
+        "A one-month workplace initiative in one store, involving 40 employees. I initiated and drove a practical response to the underperformance of the newly launched N1 skincare range, using product knowledge videos and product-linking examples to support more confident recommendations.",
       businessContext:
-        "Skincare is the most knowledge-intensive category in beauty retail. Advisors often default to selling the product the client already came for, missing the opportunity to diagnose concerns and build a routine — a gap that shows up as shallow conversations and missed client needs.",
+        "After launch, the N1 skincare range was below its sales target. Eye Cream was the lowest-performing product in the range. Employees were not yet confident recommending the products, and customers could perceive Eye Cream as non-essential. The initiative followed an initial brief from the Team Lead (TL) and RTS.",
       objective:
-        "Establish a simple, repeatable discovery sequence that any advisor could use to open a genuine skincare consultation in a busy boutique.",
+        "Help employees build confidence in recommending the N1 range by giving them practical product knowledge and a product-linking approach they could try in real customer conversations.",
       role:
-        "I mapped how conversations opened and stalled, designed the discovery sequence, and coached the team through live practice.",
+        "Project Initiator & Owner. I initiated the approach, designed the activities and selling approach, independently created the learning videos from ideation through production and editing, coordinated sales information with TL, consulted Skincare Experts and the Training Team, briefed and coordinated with Retail Sales, and monitored and reported progress. Stakeholders contributed business information, subject expertise, consultation and operational coordination.",
       approach: [
-        "Observed and mapped where skincare conversations typically stalled",
-        "Introduced a three-question discovery sequence — concerns, current routine, lifestyle",
-        "Ran regimen-building role-plays before peak floor hours",
-        "Reviewed real conversations and refined the sequence together with the team",
+        "Selected N1 Lotion (2,500) as a practical lead product employees could confidently introduce.",
+        "Created a learning video demonstrating how to link N1 Lotion with foundation in a customer recommendation.",
+        "Coordinated weekly team reporting through TL and used Dashbot as a supporting source for confidential sales information.",
+        "Consulted Skincare Experts for product knowledge and selling techniques, and the Training Team for training input.",
+        "Observed employees try the approach; after reported successful sales, other team members adopted it and independently adapted product linking to serum and cream.",
+        "Supported team engagement activities, including weekly competition and double-scoring mechanics, as described in the project record."
       ],
       outcomes: [
-        "A shared, repeatable discovery structure adopted in daily skincare conversations",
-        "Growing team comfort with routine-based rather than product-based selling",
-        "Qualitative observations only — commercial results intentionally not quantified",
+        "Employees tried the lotion-to-foundation recommendation and reported successful sales.",
+        "Other team members began adopting the approach and independently adapted product linking to serum and cream.",
+        "The project owner observed increased confidence in skincare recommendations. This is a qualitative observation, not a measured confidence score.",
+        "Actual sales figures are confidential. The available record does not establish a quantified result or prove that this initiative alone caused a sales change."
       ],
+      relatedNotes:
+        "Historical experience, reconstructed as a portfolio case study. At the time, I had not yet studied formal L&D frameworks; the original initiative was driven by retail experience, commercial understanding and practical problem-solving, not a formal ADDIE or TNA process. Any Project Charter, TNA, learning objectives, assessment, evaluation or other formal L&D artefacts created now must be labelled as retrospective portfolio demonstrations, not documents used in the original project. Exact project dates, full product naming and detailed double-scoring rules remain unconfirmed."
     },
   },
   {
