@@ -61,8 +61,8 @@ export function Hero() {
             data-testid="hero-supporting-statement"
             className="mt-8 max-w-xl text-base leading-relaxed text-stone sm:text-lg"
           >
-            Fifteen-plus years in high-end retail — a decade with CHANEL — now dedicated to
-            product knowledge, coaching and helping luxury teams learn with confidence.
+            Luxury retail experience across clienteling, product knowledge, OJT and coaching
+            support — now focused on Retail Training and Learning & Development.
           </motion.p>
 
           <motion.div
